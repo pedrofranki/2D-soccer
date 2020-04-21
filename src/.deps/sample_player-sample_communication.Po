@@ -1,0 +1,1932 @@
+sample_player-sample_communication.o: sample_communication.cpp ../config.h \
+ sample_communication.h communication.h \
+ /apps/boost/1.61.0/include/boost/shared_ptr.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/shared_ptr.hpp \
+ /apps/boost/1.61.0/include/boost/config.hpp \
+ /apps/boost/1.61.0/include/boost/config/user.hpp \
+ /apps/boost/1.61.0/include/boost/config/select_compiler_config.hpp \
+ /apps/boost/1.61.0/include/boost/config/compiler/intel.hpp \
+ /apps/boost/1.61.0/include/boost/config/compiler/gcc.hpp \
+ /usr/include/c++/4.8/cstddef \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/c++config.h \
+ /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/os_defines.h /usr/include/features.h \
+ /usr/include/stdc-predef.h /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/cpu_defines.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/config/select_stdlib_config.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/types.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/typesizes.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h \
+ /apps/boost/1.61.0/include/boost/config/select_platform_config.hpp \
+ /apps/boost/1.61.0/include/boost/config/platform/linux.hpp \
+ /usr/include/c++/4.8/cstdlib /usr/include/stdlib.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/wordsize.h \
+ /usr/include/bits/sigset.h /usr/include/time.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/bits/wordsize.h /usr/include/alloca.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /apps/boost/1.61.0/include/boost/config/posix_features.hpp \
+ /apps/boost/1.61.0/include/boost/config/suffix.hpp \
+ /apps/boost/1.61.0/include/boost/config/no_tr1/memory.hpp \
+ /usr/include/c++/4.8/memory /usr/include/c++/4.8/bits/stl_algobase.h \
+ /usr/include/c++/4.8/bits/functexcept.h \
+ /usr/include/c++/4.8/bits/exception_defines.h \
+ /usr/include/c++/4.8/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8/ext/type_traits.h /usr/include/c++/4.8/ext/numeric_traits.h \
+ /usr/include/c++/4.8/bits/stl_pair.h /usr/include/c++/4.8/bits/move.h \
+ /usr/include/c++/4.8/bits/concept_check.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8/debug/debug.h /usr/include/c++/4.8/bits/stl_iterator.h \
+ /usr/include/c++/4.8/bits/allocator.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8/ext/new_allocator.h /usr/include/c++/4.8/new \
+ /usr/include/c++/4.8/exception \
+ /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8/bits/memoryfwd.h /usr/include/c++/4.8/bits/stl_construct.h \
+ /usr/include/c++/4.8/ext/alloc_traits.h \
+ /usr/include/c++/4.8/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8/bits/stl_tempbuf.h \
+ /usr/include/c++/4.8/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/4.8/backward/auto_ptr.h \
+ /apps/boost/1.61.0/include/boost/assert.hpp /usr/include/assert.h \
+ /apps/boost/1.61.0/include/boost/checked_delete.hpp \
+ /apps/boost/1.61.0/include/boost/core/checked_delete.hpp \
+ /apps/boost/1.61.0/include/boost/throw_exception.hpp \
+ /apps/boost/1.61.0/include/boost/detail/workaround.hpp \
+ /apps/boost/1.61.0/include/boost/exception/exception.hpp \
+ /apps/boost/1.61.0/include/boost/current_function.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/shared_count.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/bad_weak_ptr.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ /apps/boost/1.61.0/include/boost/detail/sp_typeinfo.hpp \
+ /apps/boost/1.61.0/include/boost/core/typeinfo.hpp \
+ /apps/boost/1.61.0/include/boost/core/demangle.hpp /usr/include/c++/4.8/string \
+ /usr/include/c++/4.8/bits/stringfwd.h /usr/include/c++/4.8/bits/char_traits.h \
+ /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
+ /usr/include/wchar.h /usr/include/stdio.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stdarg.h /usr/include/bits/wchar.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/c++/4.8/cwchar \
+ /usr/include/wchar.h /usr/include/c++/4.8/bits/localefwd.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/c++locale.h \
+ /usr/include/c++/4.8/clocale /usr/include/locale.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/bits/locale.h \
+ /usr/include/c++/4.8/iosfwd /usr/include/c++/4.8/cctype /usr/include/ctype.h \
+ /usr/include/c++/4.8/bits/ostream_insert.h \
+ /usr/include/c++/4.8/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8/bits/stl_function.h /usr/include/c++/4.8/backward/binders.h \
+ /usr/include/c++/4.8/bits/range_access.h \
+ /usr/include/c++/4.8/bits/basic_string.h /usr/include/c++/4.8/ext/atomicity.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/gthr.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/time.h \
+ /usr/include/bits/sched.h /usr/include/time.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/bits/time.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/wordsize.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/atomic_word.h \
+ /usr/include/c++/4.8/bits/basic_string.tcc /usr/include/c++/4.8/cxxabi.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/cxxabi_tweaks.h \
+ /usr/include/c++/4.8/typeinfo /usr/include/c++/4.8/cstdlib \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+ /usr/include/c++/4.8/functional \
+ /apps/boost/1.61.0/include/boost/core/addressof.hpp /usr/include/c++/4.8/cstddef \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_convertible.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/yield_k.hpp \
+ /apps/boost/1.61.0/include/boost/predef.h \
+ /apps/boost/1.61.0/include/boost/predef/language.h \
+ /apps/boost/1.61.0/include/boost/predef/language/stdc.h \
+ /apps/boost/1.61.0/include/boost/predef/version_number.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/detail/test.h \
+ /apps/boost/1.61.0/include/boost/predef/language/stdcpp.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/language/objc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/alpha.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/arm.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/blackfin.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/convex.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/ia64.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/m68k.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/mips.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/parisc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/ppc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/pyramid.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/rs6k.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/sparc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/superh.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/sys370.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/sys390.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/32.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/32.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/64.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/32.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/64.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/x86/64.h \
+ /apps/boost/1.61.0/include/boost/predef/architecture/z.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/borland.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/clang.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/comeau.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/compaq.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/diab.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/digitalmars.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/dignus.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/edg.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/detail/comp_detected.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/ekopath.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/gcc_xml.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/gcc.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/clang.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/greenhills.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/hp_acc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/iar.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/ibm.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/intel.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/kai.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/llvm.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/clang.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/metaware.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/metrowerks.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/microtec.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/mpw.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/palm.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/pgi.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/sgi_mipspro.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/sunpro.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/tendra.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/visualc.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/clang.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/compiler/watcom.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/_prefix.h \
+ /apps/boost/1.61.0/include/boost/predef/detail/_cassert.h \
+ /usr/include/c++/4.8/cassert /usr/include/assert.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/gnu.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/uc.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/vms.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/zos.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/_prefix.h \
+ /apps/boost/1.61.0/include/boost/predef/detail/_exception.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/cxx.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/dinkumware.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/libcomo.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/modena.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/msl.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/roguewave.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/sgi.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/stdcpp3.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/stlport.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/std/vacpp.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os.h \
+ /apps/boost/1.61.0/include/boost/predef/os/aix.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/amigaos.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/android.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/beos.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/macos.h \
+ /apps/boost/1.61.0/include/boost/predef/os/ios.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/cygwin.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/haiku.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/hpux.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/irix.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/ios.h \
+ /apps/boost/1.61.0/include/boost/predef/os/linux.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/detail/os_detected.h \
+ /apps/boost/1.61.0/include/boost/predef/os/macos.h \
+ /apps/boost/1.61.0/include/boost/predef/os/os400.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/qnxnto.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/solaris.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/unix.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/vms.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/windows.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/other.h \
+ /apps/boost/1.61.0/include/boost/predef/other/endian.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/library/c/gnu.h \
+ /apps/boost/1.61.0/include/boost/predef/os/macos.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/free.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/open.h \
+ /apps/boost/1.61.0/include/boost/predef/os/bsd/net.h \
+ /apps/boost/1.61.0/include/boost/predef/os/android.h \
+ /apps/boost/1.61.0/include/boost/predef/platform.h \
+ /apps/boost/1.61.0/include/boost/predef/platform/mingw.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/platform/windows_desktop.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/windows.h \
+ /apps/boost/1.61.0/include/boost/predef/platform/windows_store.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/windows.h \
+ /apps/boost/1.61.0/include/boost/predef/platform/windows_phone.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/windows.h \
+ /apps/boost/1.61.0/include/boost/predef/platform/windows_runtime.h \
+ /apps/boost/1.61.0/include/boost/predef/make.h \
+ /apps/boost/1.61.0/include/boost/predef/os/windows.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/x86.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/x86/versions.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/x86_amd.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/x86_amd/versions.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/arm.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/arm/versions.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/ppc.h \
+ /apps/boost/1.61.0/include/boost/predef/hardware/simd/ppc/versions.h \
+ /apps/boost/1.61.0/include/boost/predef/version.h /usr/include/c++/4.8/cstddef \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/c++/4.8/algorithm /usr/include/c++/4.8/utility \
+ /usr/include/c++/4.8/bits/stl_relops.h /usr/include/c++/4.8/bits/stl_algo.h \
+ /usr/include/c++/4.8/cstdlib /usr/include/c++/4.8/bits/algorithmfwd.h \
+ /usr/include/c++/4.8/bits/stl_heap.h /usr/include/c++/4.8/cstddef \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /home/pro076/rc/rclib/include/rcsc/game_time.h /usr/include/c++/4.8/iostream \
+ /usr/include/c++/4.8/ostream /usr/include/c++/4.8/ios \
+ /usr/include/c++/4.8/bits/ios_base.h /usr/include/c++/4.8/bits/locale_classes.h \
+ /usr/include/c++/4.8/bits/locale_classes.tcc /usr/include/c++/4.8/streambuf \
+ /usr/include/c++/4.8/bits/streambuf.tcc /usr/include/c++/4.8/bits/basic_ios.h \
+ /usr/include/c++/4.8/bits/locale_facets.h /usr/include/c++/4.8/cwctype \
+ /usr/include/wctype.h /usr/include/wchar.h /usr/include/c++/4.8/cctype \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/ctype_base.h \
+ /usr/include/c++/4.8/bits/streambuf_iterator.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.8/bits/locale_facets.tcc \
+ /usr/include/c++/4.8/bits/basic_ios.tcc /usr/include/c++/4.8/bits/ostream.tcc \
+ /usr/include/c++/4.8/istream /usr/include/c++/4.8/bits/istream.tcc \
+ /home/pro076/rc/rclib/include/rcsc/types.h strategy.h soccer_role.h \
+ /home/pro076/rc/rclib/include/rcsc/factory.h /usr/include/c++/4.8/map \
+ /usr/include/c++/4.8/bits/stl_tree.h /usr/include/c++/4.8/bits/stl_map.h \
+ /usr/include/c++/4.8/bits/stl_multimap.h /usr/include/c++/4.8/list \
+ /usr/include/c++/4.8/bits/stl_list.h /usr/include/c++/4.8/bits/list.tcc \
+ /usr/include/c++/4.8/stack /usr/include/c++/4.8/deque \
+ /usr/include/c++/4.8/bits/stl_deque.h /usr/include/c++/4.8/bits/deque.tcc \
+ /usr/include/c++/4.8/bits/stl_stack.h /usr/include/c++/4.8/cstring \
+ /usr/include/string.h /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /home/pro076/rc/rclib/include/rcsc/formation/formation.h \
+ /home/pro076/rc/rclib/include/rcsc/formation/sample_data.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/vector_2d.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/angle_deg.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h /usr/include/c++/4.8/vector \
+ /usr/include/c++/4.8/bits/stl_vector.h /usr/include/c++/4.8/bits/stl_bvector.h \
+ /usr/include/c++/4.8/bits/vector.tcc \
+ /home/pro076/rc/rclib/include/rcsc/player/player_agent.h \
+ /home/pro076/rc/rclib/include/rcsc/player/world_model.h \
+ /home/pro076/rc/rclib/include/rcsc/player/self_object.h \
+ /home/pro076/rc/rclib/include/rcsc/player/abstract_player_object.h \
+ /home/pro076/rc/rclib/include/rcsc/player/localization.h \
+ /home/pro076/rc/rclib/include/rcsc/player/visual_sensor.h \
+ /home/pro076/rc/rclib/include/rcsc/common/player_type.h \
+ /home/pro076/rc/rclib/include/rcsc/rcg/types.h \
+ /apps/boost/1.61.0/include/boost/cstdint.hpp \
+ /apps/intel/cc/15.0.6.233/compiler/include/stdint.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/include/stdint.h /usr/include/stdint.h \
+ /usr/include/bits/wordsize.h /home/pro076/rc/rclib/include/rcsc/soccer_math.h \
+ /home/pro076/rc/rclib/include/rcsc/player/view_mode.h \
+ /home/pro076/rc/rclib/include/rcsc/player/fullstate_sensor.h \
+ /home/pro076/rc/rclib/include/rcsc/common/stamina_model.h \
+ /home/pro076/rc/rclib/include/rcsc/player/ball_object.h \
+ /home/pro076/rc/rclib/include/rcsc/math_util.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h \
+ /home/pro076/rc/rclib/include/rcsc/player/player_object.h \
+ /home/pro076/rc/rclib/include/rcsc/player/view_area.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h \
+ /home/pro076/rc/rclib/include/rcsc/player/view_grid_map.h \
+ /apps/boost/1.61.0/include/boost/scoped_ptr.hpp \
+ /apps/boost/1.61.0/include/boost/smart_ptr/scoped_ptr.hpp \
+ /apps/boost/1.61.0/include/boost/assert.hpp /usr/include/assert.h \
+ /apps/boost/1.61.0/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /home/pro076/rc/rclib/include/rcsc/game_mode.h \
+ /home/pro076/rc/rclib/include/rcsc/player/action_effector.h \
+ /home/pro076/rc/rclib/include/rcsc/player/player_command.h \
+ /usr/include/c++/4.8/cmath /apps/intel/cc/15.0.6.233/compiler/include/math.h \
+ /home/pro076/rc/rclib/include/rcsc/player/debug_client.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/segment_2d.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/line_2d.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/triangle_2d.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/region_2d.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/rect_2d.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/size_2d.h /usr/include/c++/4.8/cmath \
+ /apps/intel/cc/15.0.6.233/compiler/include/math.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/circle_2d.h /usr/include/c++/4.8/fstream \
+ /usr/include/c++/4.8/bits/codecvt.h /usr/include/c++/4.8/cstdio \
+ /usr/include/stdio.h /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/libio.h /usr/include/_G_config.h \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/basic_file.h \
+ /usr/include/c++/4.8/x86_64-suse-linux/bits/c++io.h /usr/include/c++/4.8/cstdio \
+ /usr/include/c++/4.8/bits/fstream.tcc \
+ /home/pro076/rc/rclib/include/rcsc/player/player_config.h \
+ /home/pro076/rc/rclib/include/rcsc/player/see_state.h \
+ /home/pro076/rc/rclib/include/rcsc/common/soccer_agent.h \
+ /home/pro076/rc/rclib/include/rcsc/common/periodic_callback.h \
+ /home/pro076/rc/rclib/include/rcsc/timer.h \
+ /home/pro076/rc/rclib/include/rcsc/time/timer.h \
+ /apps/boost/1.61.0/include/boost/function.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/iterate.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/iteration/iterate.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/dec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/array/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/array/data.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/expand.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/overload.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/variadic/size.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/rem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/expand.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/overload.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/variadic/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/array/size.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/array/size.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/slot/slot.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/slot/detail/def.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/prologue.hpp \
+ /usr/include/c++/4.8/cassert /usr/include/assert.h \
+ /apps/boost/1.61.0/include/boost/config/no_tr1/functional.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_base.hpp \
+ /usr/include/c++/4.8/stdexcept /apps/boost/1.61.0/include/boost/assert.hpp \
+ /usr/include/assert.h /apps/boost/1.61.0/include/boost/integer.hpp \
+ /apps/boost/1.61.0/include/boost/integer_fwd.hpp /usr/include/c++/4.8/climits \
+ /apps/intel/cc/15.0.6.233/compiler/include/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed/limits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/4.8/cstddef \
+ /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/limits.hpp /usr/include/c++/4.8/limits \
+ /apps/boost/1.61.0/include/boost/cstdint.hpp \
+ /apps/boost/1.61.0/include/boost/integer_traits.hpp \
+ /apps/intel/cc/15.0.6.233/compiler/include/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed/limits.h /usr/include/wchar.h \
+ /apps/boost/1.61.0/include/boost/cstdint.hpp \
+ /apps/boost/1.61.0/include/boost/static_assert.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/has_trivial_copy.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/intrinsics.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/detail/config.hpp \
+ /apps/boost/1.61.0/include/boost/version.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_pod.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_void.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/integral_constant.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_scalar.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_arithmetic.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_integral.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_floating_point.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_enum.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_pointer.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_member_pointer.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_member_function_pointer.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/remove_cv.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/type_traits/is_reference.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_lvalue_reference.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_rvalue_reference.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/add_const.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/add_lvalue_reference.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/add_reference.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/has_trivial_destructor.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_destructible.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_class.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_const.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_volatile.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/composite_traits.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/is_array.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/type_traits/is_union.hpp \
+ /apps/boost/1.61.0/include/boost/ref.hpp \
+ /apps/boost/1.61.0/include/boost/core/ref.hpp \
+ /apps/boost/1.61.0/include/boost/utility/addressof.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/if.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/value_wknd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/static_cast.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/workaround.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/integral.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/msvc.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/eti.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/na_spec.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/lambda_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/void_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/adl_barrier.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/adl.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/intel.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/gcc.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/na.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/bool.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/bool_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/integral_c_tag.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/static_constant.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/na_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/ctps.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/lambda.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/ttp.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/int.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/int_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/nttp_decl.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/nttp.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/integral_wrapper.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/arity.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/dtp.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/params.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/preprocessor.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/iif.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/bool.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/empty.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repetition/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/iif.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/limits/arity.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/and.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/bool.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/bitand.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/identity.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/identity.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/empty.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/empty.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/facilities/empty.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/add.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/dec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/while.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/fold_left.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/while.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/detail/edg/fold_left.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/expr_iif.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/iif.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/adt.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/is_binary.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/check.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/compl.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/fold_right.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/while.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/detail/edg/fold_right.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/iif.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/list/adt.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/logical/bitand.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/detail/edg/while.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/sub.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/arithmetic/dec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/control/while.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ /apps/boost/1.61.0/include/boost/mpl/aux_/lambda_support.hpp \
+ /apps/boost/1.61.0/include/boost/type_traits/alignment_of.hpp \
+ /usr/include/c++/4.8/cstddef /apps/intel/cc/15.0.6.233/compiler/include/stddef.h \
+ /apps/boost/1.61.0/include/boost/utility/enable_if.hpp \
+ /apps/boost/1.61.0/include/boost/core/enable_if.hpp \
+ /apps/boost/1.61.0/include/boost/function_equal.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_fwd.hpp \
+ /usr/include/c++/4.8/cstring /apps/boost/1.61.0/include/boost/mem_fn.hpp \
+ /apps/boost/1.61.0/include/boost/bind/mem_fn.hpp \
+ /apps/boost/1.61.0/include/boost/get_pointer.hpp \
+ /apps/boost/1.61.0/include/boost/bind/mem_fn_template.hpp \
+ /apps/boost/1.61.0/include/boost/bind/mem_fn_cc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/enum.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repetition/enum.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repetition/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/tuple/rem.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/enum_params.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repetition/enum_params.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repetition/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/cat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/repeat.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/inc.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/slot/detail/shared.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
+ /apps/boost/1.61.0/include/boost/preprocessor/slot/detail/shared.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/detail/no_exceptions_support.hpp \
+ /apps/boost/1.61.0/include/boost/core/no_exceptions_support.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp \
+ /apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp \
+ /apps/boost/1.61.0/include/boost/function/function_template.hpp \
+ /home/pro076/rc/rclib/include/rcsc/player/intercept_table.h \
+ /home/pro076/rc/rclib/include/rcsc/player/say_message_builder.h \
+ /home/pro076/rc/rclib/include/rcsc/common/say_message_parser.h \
+ /home/pro076/rc/rclib/include/rcsc/player/freeform_parser.h \
+ /home/pro076/rc/rclib/include/rcsc/common/audio_message.h \
+ /home/pro076/rc/rclib/include/rcsc/common/logger.h \
+ /home/pro076/rc/rclib/include/rcsc/geom/sector_2d.h \
+ /apps/boost/1.61.0/include/boost/cstdint.hpp /usr/include/c++/4.8/cstdio \
+ /home/pro076/rc/rclib/include/rcsc/common/server_param.h \
+ /home/pro076/rc/rclib/include/rcsc/common/player_param.h \
+ /home/pro076/rc/rclib/include/rcsc/common/audio_memory.h \
+ /usr/include/c++/4.8/cmath /apps/intel/cc/15.0.6.233/compiler/include/math.h
+
+../config.h:
+
+sample_communication.h:
+
+communication.h:
+
+/apps/boost/1.61.0/include/boost/shared_ptr.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/shared_ptr.hpp:
+
+/apps/boost/1.61.0/include/boost/config.hpp:
+
+/apps/boost/1.61.0/include/boost/config/user.hpp:
+
+/apps/boost/1.61.0/include/boost/config/select_compiler_config.hpp:
+
+/apps/boost/1.61.0/include/boost/config/compiler/intel.hpp:
+
+/apps/boost/1.61.0/include/boost/config/compiler/gcc.hpp:
+
+/usr/include/c++/4.8/cstddef:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/c++config.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/os_defines.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/cpu_defines.h:
+
+/apps/intel/cc/15.0.6.233/compiler/include/stddef.h:
+
+/apps/boost/1.61.0/include/boost/config/select_stdlib_config.hpp:
+
+/apps/boost/1.61.0/include/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/apps/boost/1.61.0/include/boost/config/select_platform_config.hpp:
+
+/apps/boost/1.61.0/include/boost/config/platform/linux.hpp:
+
+/usr/include/c++/4.8/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/byteswap-16.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/stdlib-bsearch.h:
+
+/usr/include/bits/stdlib-float.h:
+
+/apps/boost/1.61.0/include/boost/config/posix_features.hpp:
+
+/apps/boost/1.61.0/include/boost/config/suffix.hpp:
+
+/apps/boost/1.61.0/include/boost/config/no_tr1/memory.hpp:
+
+/usr/include/c++/4.8/memory:
+
+/usr/include/c++/4.8/bits/stl_algobase.h:
+
+/usr/include/c++/4.8/bits/functexcept.h:
+
+/usr/include/c++/4.8/bits/exception_defines.h:
+
+/usr/include/c++/4.8/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8/ext/type_traits.h:
+
+/usr/include/c++/4.8/ext/numeric_traits.h:
+
+/usr/include/c++/4.8/bits/stl_pair.h:
+
+/usr/include/c++/4.8/bits/move.h:
+
+/usr/include/c++/4.8/bits/concept_check.h:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8/debug/debug.h:
+
+/usr/include/c++/4.8/bits/stl_iterator.h:
+
+/usr/include/c++/4.8/bits/allocator.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8/ext/new_allocator.h:
+
+/usr/include/c++/4.8/new:
+
+/usr/include/c++/4.8/exception:
+
+/usr/include/c++/4.8/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8/bits/memoryfwd.h:
+
+/usr/include/c++/4.8/bits/stl_construct.h:
+
+/usr/include/c++/4.8/ext/alloc_traits.h:
+
+/usr/include/c++/4.8/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.8/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/4.8/backward/auto_ptr.h:
+
+/apps/boost/1.61.0/include/boost/assert.hpp:
+
+/usr/include/assert.h:
+
+/apps/boost/1.61.0/include/boost/checked_delete.hpp:
+
+/apps/boost/1.61.0/include/boost/core/checked_delete.hpp:
+
+/apps/boost/1.61.0/include/boost/throw_exception.hpp:
+
+/apps/boost/1.61.0/include/boost/detail/workaround.hpp:
+
+/apps/boost/1.61.0/include/boost/exception/exception.hpp:
+
+/apps/boost/1.61.0/include/boost/current_function.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/shared_count.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+
+/apps/boost/1.61.0/include/boost/detail/sp_typeinfo.hpp:
+
+/apps/boost/1.61.0/include/boost/core/typeinfo.hpp:
+
+/apps/boost/1.61.0/include/boost/core/demangle.hpp:
+
+/usr/include/c++/4.8/string:
+
+/usr/include/c++/4.8/bits/stringfwd.h:
+
+/usr/include/c++/4.8/bits/char_traits.h:
+
+/usr/include/c++/4.8/bits/postypes.h:
+
+/usr/include/c++/4.8/cwchar:
+
+/usr/include/wchar.h:
+
+/usr/include/stdio.h:
+
+/apps/intel/cc/15.0.6.233/compiler/include/stdarg.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/c++/4.8/bits/localefwd.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/c++locale.h:
+
+/usr/include/c++/4.8/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.8/iosfwd:
+
+/usr/include/c++/4.8/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/4.8/bits/ostream_insert.h:
+
+/usr/include/c++/4.8/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8/bits/stl_function.h:
+
+/usr/include/c++/4.8/backward/binders.h:
+
+/usr/include/c++/4.8/bits/range_access.h:
+
+/usr/include/c++/4.8/bits/basic_string.h:
+
+/usr/include/c++/4.8/ext/atomicity.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/gthr.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.8/bits/basic_string.tcc:
+
+/usr/include/c++/4.8/cxxabi.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/cxxabi_tweaks.h:
+
+/usr/include/c++/4.8/typeinfo:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/usr/include/c++/4.8/functional:
+
+/apps/boost/1.61.0/include/boost/core/addressof.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/yield_k.hpp:
+
+/apps/boost/1.61.0/include/boost/predef.h:
+
+/apps/boost/1.61.0/include/boost/predef/language.h:
+
+/apps/boost/1.61.0/include/boost/predef/language/stdc.h:
+
+/apps/boost/1.61.0/include/boost/predef/version_number.h:
+
+/apps/boost/1.61.0/include/boost/predef/make.h:
+
+/apps/boost/1.61.0/include/boost/predef/detail/test.h:
+
+/apps/boost/1.61.0/include/boost/predef/language/stdcpp.h:
+
+/apps/boost/1.61.0/include/boost/predef/language/objc.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/alpha.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/arm.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/blackfin.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/convex.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/ia64.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/m68k.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/mips.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/parisc.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/ppc.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/pyramid.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/rs6k.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/sparc.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/superh.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/sys370.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/sys390.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/x86.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/x86/32.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/x86/64.h:
+
+/apps/boost/1.61.0/include/boost/predef/architecture/z.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/borland.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/clang.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/comeau.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/compaq.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/diab.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/digitalmars.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/dignus.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/edg.h:
+
+/apps/boost/1.61.0/include/boost/predef/detail/comp_detected.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/ekopath.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/gcc_xml.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/gcc.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/greenhills.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/hp_acc.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/iar.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/ibm.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/intel.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/kai.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/llvm.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/metaware.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/metrowerks.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/microtec.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/mpw.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/palm.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/pgi.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/sgi_mipspro.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/sunpro.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/tendra.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/visualc.h:
+
+/apps/boost/1.61.0/include/boost/predef/compiler/watcom.h:
+
+/apps/boost/1.61.0/include/boost/predef/library.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/c.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/c/_prefix.h:
+
+/apps/boost/1.61.0/include/boost/predef/detail/_cassert.h:
+
+/usr/include/c++/4.8/cassert:
+
+/apps/boost/1.61.0/include/boost/predef/library/c/gnu.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/c/uc.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/c/vms.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/c/zos.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/_prefix.h:
+
+/apps/boost/1.61.0/include/boost/predef/detail/_exception.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/cxx.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/dinkumware.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/libcomo.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/modena.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/msl.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/roguewave.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/sgi.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/stdcpp3.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/stlport.h:
+
+/apps/boost/1.61.0/include/boost/predef/library/std/vacpp.h:
+
+/apps/boost/1.61.0/include/boost/predef/os.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/aix.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/amigaos.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/android.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/beos.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/macos.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/ios.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd/bsdi.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd/dragonfly.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd/free.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd/open.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/bsd/net.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/cygwin.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/haiku.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/hpux.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/irix.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/linux.h:
+
+/apps/boost/1.61.0/include/boost/predef/detail/os_detected.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/os400.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/qnxnto.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/solaris.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/unix.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/vms.h:
+
+/apps/boost/1.61.0/include/boost/predef/os/windows.h:
+
+/apps/boost/1.61.0/include/boost/predef/other.h:
+
+/apps/boost/1.61.0/include/boost/predef/other/endian.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform/mingw.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform/windows_desktop.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform/windows_store.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform/windows_phone.h:
+
+/apps/boost/1.61.0/include/boost/predef/platform/windows_runtime.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/x86.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/x86/versions.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/x86_amd.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/arm.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/arm/versions.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/ppc.h:
+
+/apps/boost/1.61.0/include/boost/predef/hardware/simd/ppc/versions.h:
+
+/apps/boost/1.61.0/include/boost/predef/version.h:
+
+/usr/include/c++/4.8/algorithm:
+
+/usr/include/c++/4.8/utility:
+
+/usr/include/c++/4.8/bits/stl_relops.h:
+
+/usr/include/c++/4.8/bits/stl_algo.h:
+
+/usr/include/c++/4.8/bits/algorithmfwd.h:
+
+/usr/include/c++/4.8/bits/stl_heap.h:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/home/pro076/rc/rclib/include/rcsc/game_time.h:
+
+/usr/include/c++/4.8/iostream:
+
+/usr/include/c++/4.8/ostream:
+
+/usr/include/c++/4.8/ios:
+
+/usr/include/c++/4.8/bits/ios_base.h:
+
+/usr/include/c++/4.8/bits/locale_classes.h:
+
+/usr/include/c++/4.8/bits/locale_classes.tcc:
+
+/usr/include/c++/4.8/streambuf:
+
+/usr/include/c++/4.8/bits/streambuf.tcc:
+
+/usr/include/c++/4.8/bits/basic_ios.h:
+
+/usr/include/c++/4.8/bits/locale_facets.h:
+
+/usr/include/c++/4.8/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/ctype_base.h:
+
+/usr/include/c++/4.8/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/ctype_inline.h:
+
+/usr/include/c++/4.8/bits/locale_facets.tcc:
+
+/usr/include/c++/4.8/bits/basic_ios.tcc:
+
+/usr/include/c++/4.8/bits/ostream.tcc:
+
+/usr/include/c++/4.8/istream:
+
+/usr/include/c++/4.8/bits/istream.tcc:
+
+/home/pro076/rc/rclib/include/rcsc/types.h:
+
+strategy.h:
+
+soccer_role.h:
+
+/home/pro076/rc/rclib/include/rcsc/factory.h:
+
+/usr/include/c++/4.8/map:
+
+/usr/include/c++/4.8/bits/stl_tree.h:
+
+/usr/include/c++/4.8/bits/stl_map.h:
+
+/usr/include/c++/4.8/bits/stl_multimap.h:
+
+/usr/include/c++/4.8/list:
+
+/usr/include/c++/4.8/bits/stl_list.h:
+
+/usr/include/c++/4.8/bits/list.tcc:
+
+/usr/include/c++/4.8/stack:
+
+/usr/include/c++/4.8/deque:
+
+/usr/include/c++/4.8/bits/stl_deque.h:
+
+/usr/include/c++/4.8/bits/deque.tcc:
+
+/usr/include/c++/4.8/bits/stl_stack.h:
+
+/usr/include/c++/4.8/cstring:
+
+/usr/include/string.h:
+
+/home/pro076/rc/rclib/include/rcsc/formation/formation.h:
+
+/home/pro076/rc/rclib/include/rcsc/formation/sample_data.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/vector_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/angle_deg.h:
+
+/usr/include/c++/4.8/cmath:
+
+/apps/intel/cc/15.0.6.233/compiler/include/math.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/math-vector.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/usr/include/c++/4.8/vector:
+
+/usr/include/c++/4.8/bits/stl_vector.h:
+
+/usr/include/c++/4.8/bits/stl_bvector.h:
+
+/usr/include/c++/4.8/bits/vector.tcc:
+
+/home/pro076/rc/rclib/include/rcsc/player/player_agent.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/world_model.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/self_object.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/abstract_player_object.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/localization.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/visual_sensor.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/player_type.h:
+
+/home/pro076/rc/rclib/include/rcsc/rcg/types.h:
+
+/apps/boost/1.61.0/include/boost/cstdint.hpp:
+
+/apps/intel/cc/15.0.6.233/compiler/include/stdint.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/home/pro076/rc/rclib/include/rcsc/soccer_math.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/view_mode.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/fullstate_sensor.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/stamina_model.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/ball_object.h:
+
+/home/pro076/rc/rclib/include/rcsc/math_util.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/player_object.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/view_area.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/view_grid_map.h:
+
+/apps/boost/1.61.0/include/boost/scoped_ptr.hpp:
+
+/apps/boost/1.61.0/include/boost/smart_ptr/scoped_ptr.hpp:
+
+/home/pro076/rc/rclib/include/rcsc/game_mode.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/action_effector.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/player_command.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/debug_client.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/segment_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/line_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/triangle_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/region_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/rect_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/size_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/circle_2d.h:
+
+/usr/include/c++/4.8/fstream:
+
+/usr/include/c++/4.8/bits/codecvt.h:
+
+/usr/include/c++/4.8/cstdio:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/basic_file.h:
+
+/usr/include/c++/4.8/x86_64-suse-linux/bits/c++io.h:
+
+/usr/include/c++/4.8/bits/fstream.tcc:
+
+/home/pro076/rc/rclib/include/rcsc/player/player_config.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/see_state.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/soccer_agent.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/periodic_callback.h:
+
+/home/pro076/rc/rclib/include/rcsc/timer.h:
+
+/home/pro076/rc/rclib/include/rcsc/time/timer.h:
+
+/apps/boost/1.61.0/include/boost/function.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/iterate.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/iteration/iterate.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/config/config.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/array/elem.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/array/data.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/tuple/elem.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/cat.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/facilities/expand.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/facilities/overload.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/variadic/size.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/tuple/rem.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/variadic/elem.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/array/size.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/slot/slot.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/slot/detail/def.hpp:
+
+/apps/boost/1.61.0/include/boost/function/detail/prologue.hpp:
+
+/apps/boost/1.61.0/include/boost/config/no_tr1/functional.hpp:
+
+/apps/boost/1.61.0/include/boost/function/function_base.hpp:
+
+/usr/include/c++/4.8/stdexcept:
+
+/apps/boost/1.61.0/include/boost/integer.hpp:
+
+/apps/boost/1.61.0/include/boost/integer_fwd.hpp:
+
+/usr/include/c++/4.8/climits:
+
+/apps/intel/cc/15.0.6.233/compiler/include/limits.h:
+
+/usr/lib64/gcc/x86_64-suse-linux/4.8/include-fixed/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/apps/boost/1.61.0/include/boost/limits.hpp:
+
+/usr/include/c++/4.8/limits:
+
+/apps/boost/1.61.0/include/boost/integer_traits.hpp:
+
+/apps/boost/1.61.0/include/boost/static_assert.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/has_trivial_copy.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/intrinsics.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/detail/config.hpp:
+
+/apps/boost/1.61.0/include/boost/version.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_pod.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_void.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/integral_constant.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_scalar.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_arithmetic.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_integral.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_floating_point.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_enum.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_pointer.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_member_pointer.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_member_function_pointer.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/remove_cv.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_reference.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_lvalue_reference.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_rvalue_reference.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/add_const.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/add_lvalue_reference.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/add_reference.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/has_trivial_destructor.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_destructible.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_class.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_const.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_volatile.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/composite_traits.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_array.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/is_union.hpp:
+
+/apps/boost/1.61.0/include/boost/ref.hpp:
+
+/apps/boost/1.61.0/include/boost/core/ref.hpp:
+
+/apps/boost/1.61.0/include/boost/utility/addressof.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/if.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/value_wknd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/static_cast.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/workaround.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/integral.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/msvc.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/eti.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/na_spec.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/lambda_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/void_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/adl.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/intel.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/gcc.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/na.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/bool.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/bool_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/integral_c_tag.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/na_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/ctps.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/lambda.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/ttp.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/int.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/int_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/nttp.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/arity.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/dtp.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/comma_if.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/control/if.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/control/iif.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/logical/bool.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/facilities/empty.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/punctuation/comma.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/repeat.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/repetition/repeat.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/debug/error.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/detail/auto_rec.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/tuple/eat.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/inc.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/limits/arity.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/logical/and.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/logical/bitand.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/identity.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/facilities/identity.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/empty.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/arithmetic/add.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/control/while.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/list/fold_left.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/list/detail/edg/fold_left.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/control/expr_iif.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/list/adt.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/detail/is_binary.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/detail/check.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/logical/compl.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/list/fold_right.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/list/detail/edg/fold_right.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/control/detail/edg/while.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/apps/boost/1.61.0/include/boost/mpl/aux_/lambda_support.hpp:
+
+/apps/boost/1.61.0/include/boost/type_traits/alignment_of.hpp:
+
+/apps/boost/1.61.0/include/boost/utility/enable_if.hpp:
+
+/apps/boost/1.61.0/include/boost/core/enable_if.hpp:
+
+/apps/boost/1.61.0/include/boost/function_equal.hpp:
+
+/apps/boost/1.61.0/include/boost/function/function_fwd.hpp:
+
+/apps/boost/1.61.0/include/boost/mem_fn.hpp:
+
+/apps/boost/1.61.0/include/boost/bind/mem_fn.hpp:
+
+/apps/boost/1.61.0/include/boost/get_pointer.hpp:
+
+/apps/boost/1.61.0/include/boost/bind/mem_fn_template.hpp:
+
+/apps/boost/1.61.0/include/boost/bind/mem_fn_cc.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/enum.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/repetition/enum.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/enum_params.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/slot/detail/shared.hpp:
+
+/apps/boost/1.61.0/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
+
+/apps/boost/1.61.0/include/boost/function/detail/function_iterate.hpp:
+
+/apps/boost/1.61.0/include/boost/function/detail/maybe_include.hpp:
+
+/apps/boost/1.61.0/include/boost/function/function_template.hpp:
+
+/apps/boost/1.61.0/include/boost/detail/no_exceptions_support.hpp:
+
+/apps/boost/1.61.0/include/boost/core/no_exceptions_support.hpp:
+
+/home/pro076/rc/rclib/include/rcsc/player/intercept_table.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/say_message_builder.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/say_message_parser.h:
+
+/home/pro076/rc/rclib/include/rcsc/player/freeform_parser.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/audio_message.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/logger.h:
+
+/home/pro076/rc/rclib/include/rcsc/geom/sector_2d.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/server_param.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/player_param.h:
+
+/home/pro076/rc/rclib/include/rcsc/common/audio_memory.h:
