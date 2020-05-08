@@ -1,0 +1,25 @@
+mexer no arquivo strategy
+M_role_factory -> pega as funcoes de da jogador
+
+
+CooperativeAction Module -> ações a serem tomadas pelo jogador
+    - Tipo da ação ( hold, pass, dribble, shoot)
+    - Id do agente que realizara a ação
+    - Id do agente alvo 
+    - o ponto do alvo que terminara a ação 
+    - Estimativa de tempo até a ação terminar
+Action Generator -> Gera varia CooperativeAction a partir do estado atual, e cria uma previsão do resultado 
+da ação, sucesso ou falha
+Evaluator Module -> 
+
+
+Bhv_BasicOffensiveKick - implementação chute
+
+
+TO DO
+    terminar de ler - Online Cooperative Behavior Planning using a Tree Search Method in the
+RoboCup Soccer Simulation
+    Tentar inativar e ativar as ações de todos os jogadores
+    estudar strategy.cpp
+
+
